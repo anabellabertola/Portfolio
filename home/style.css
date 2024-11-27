@@ -82,7 +82,12 @@ header {
     justify-content: left;
     position: absolute;
     margin-left: 57%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.boton:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 button {
@@ -154,6 +159,12 @@ section p{
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.primer-perfil:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .perfil img {
@@ -227,6 +238,12 @@ section p{
     height: 180px;
     border-radius: 27px;
     width: 200px;
+    transition: transfor 0.3s ease, box-shadow 0.3s ease;
+}
+
+.segundo-bloque-uno:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .firmita {
@@ -274,6 +291,12 @@ section p{
     width: 200px;
     margin: 10px;
     justify-content: space-evenly;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.primer-bloque-segundo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .certificate{
@@ -311,6 +334,12 @@ section p{
     height: 180px;
     border-radius: 27px;
     width: 450px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.segundo-block-segundo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -346,6 +375,12 @@ section p{
     border-radius: 27px;
     width: 200px;
     margin: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tercer-bloque-segundo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .imagenes-contacto{
@@ -385,6 +420,12 @@ section p{
     border-radius: 27px;
     width: 400px;
     margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.primer-bloque-tercero:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -423,6 +464,12 @@ section p{
     height: 180px;
     border-radius: 27px;
     width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.first-blocka:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .bloque-deco {

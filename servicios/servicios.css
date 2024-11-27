@@ -83,6 +83,12 @@ header {
     justify-content: left;
     position: absolute;
     margin-left: 57%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.boton:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 button {
@@ -233,6 +239,12 @@ main {
     border-radius: 27px;
     width: 200px;
     margin: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tercer-bloque-segundo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .imagenes-contacto{
@@ -287,6 +299,12 @@ main {
     border-radius: 27px;
     width: 450px;
     display: flex;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.segundo-bloque-tercero:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .bloque-deco {
@@ -325,7 +343,15 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.segundo-dos-bloques:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2)
+}
+
+
 .segundo-bloque-uno {
     background: linear-gradient(135deg, #2c2b2b, #000000);
     margin: 10px;

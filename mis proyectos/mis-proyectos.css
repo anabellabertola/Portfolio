@@ -86,6 +86,12 @@ section {
     justify-content: left;
     position: absolute;
     margin-left: 57%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.boton:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 button {
@@ -144,6 +150,15 @@ button img {
     width: 370px;
     margin-bottom: 30px;
 }
+.flecha img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.flecha img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 
 
 .imagen-pack .img-1{

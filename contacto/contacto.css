@@ -85,6 +85,12 @@ header {
     justify-content: left;
     position: absolute;
     margin-left: 57%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.boton:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 button {
@@ -137,6 +143,12 @@ button img {
     border-radius: 15px;
     height: 70px;
     margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box-items:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* IMAGENES  */
@@ -232,6 +244,12 @@ textarea::placeholder{
     color: white;
     height: 55px;
     border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submit:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
 
