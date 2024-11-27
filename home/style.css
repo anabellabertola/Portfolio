@@ -181,7 +181,7 @@ section p{
 }
 
 .text-perfil h1{
-    font-size: clamp(29px, 5vw, 35px);
+    font-size: clamp(25px, 5vw, 35px);
     font-weight: 200;
     width: 50%;
 }
@@ -576,11 +576,7 @@ footer {
 }
 
 
-
-
-@media (max-width: 1300px) {
-
-}
+/* RESPONSIVE */
 
 @media screen and (max-width: 1255px) {
 
@@ -718,6 +714,27 @@ footer {
 
 }
 
+
+@media screen and (max-width: 400px) {
+    .perfil img {
+        width: 200px; 
+    }
+
+    .segundo-block-segundo {
+        width: 300px;
+        margin-left: 3%;
+    }
+
+    .primer-bloque-tercero {
+        width: 300px;
+        margin-left: 1.5%;
+    }
+
+    .first-blocka {
+        width: 300px;
+        margin-left: 1.5%;
+    }
+}
 
 
 
