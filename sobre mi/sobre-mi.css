@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html, body {
+    background-color: #0F0F0F;
+    color: #716f6f;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+header {
+    height: 200px;
+}
+
+.contenedor-pagina {
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.logo-1 {
+    z-index: 1000;
+    display: flex;
+    position: absolute;
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.menu {
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+}
+
+.menu .navbar ul li {
+    float: left;
+}
+
+.menu .navbar ul li a {
+    display: flex;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    color: white;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+.menu .navbar ul li a:hover {
+    color:#716f6f;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.boton {
+    padding: 20px;
+    justify-content: left;
+    position: absolute;
+    margin-left: 57%;
+}
+
+button {
+    background-color: #4a4949;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button img {
+    width: 35px;
+    height: auto;
+
+}
+
+a p {
+    color:#716f6f;
+}
+
+a h1 {
+    color: white
+}
+
+
+
+/* CONTENEDOR PERFIL */
+
+.contenedor-perfil {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contenedor-imagen-perfil {
+    background: linear-gradient(135deg, #2c2b2b, #000000);
+    padding: 40px;
+    height: 320px;
+    border-radius: 27px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-perfil {
+    width: 300px;
+    height: 320px;
+    border-radius: 27px;
+}
+
+/* CONTENEDOR INFORMACION */
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titulo h1 {
+    font-size: clamp(40px, 5vw, 50px);
+    font-weight: 200;
+    margin: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-personal {
+    background: linear-gradient(135deg, #2c2b2b, #000000);
+    padding: 40px;
+    border-radius: 27px;
+    height: 220px;
+    margin-top: 30px;
+    margin: 15px;
+}
+
+.imagen-decoracion {
+    margin-top: -40px;
+}
+
+.info-sobre-mi {
+    margin-top: 15px;
+    color: white;
+}
+
+.info-sobre-mi h2 {
+    font-size: clamp(28px, 5vw, 35px);
+    margin-bottom: 10px;
+}
+
+.info-sobre-mi p {
+    font-size: clamp(14px, 3vw, 17px);
+}
+
+/* SEGUNDA SECCION ESTUDIOS Y EDUCACION */
+ 
+.segunda-seccion {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+
+.bloque {
+    background: linear-gradient(135deg, #2c2b2b, #000000);
+    padding: 40px;
+
+    border-radius: 27px;
+    margin: 5px;
+    width: 500px;
+}
+
+.estudios h1 {
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 16px;
+}
+
+.fecha h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.parrafos {
+    margin-bottom: 15px;
+}
+
+.parrafos h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: 200;
+}
+
+.parrafos p {
+    font-weight: 200;
+}
+
+/* TERCER BLOQUE SEGUNDA SECCION*/
+
+
+.tercer-seccion {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tercer-bloque-segundo {
+    background: linear-gradient(135deg, #2c2b2b, #000000);
+    padding: 40px;
+    height: 180px;
+    border-radius: 27px;
+    width: 200px;
+    margin: 5px;
+}
+
+.imagenes-contacto{
+    border: 0.5px solid #2c2b2b;
+    border-radius: 25px;
+    height: 100px;
+    background: linear-gradient(135deg, #2c2b2b, #000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blocki-contacto{
+    background: linear-gradient(135deg, #4e4d4d, #131212);
+    border-radius: 15px;
+    height: 60px;
+    margin: 10px;
+}
+
+.blocki-contacto img {
+    width: 60px;
+    height: 60px;
+}
+
+.contactame {
+    margin-top: 30px;
+}
+
+.perfil-flecha {
+    display: flex;
+}
+
+.perfil-flecha .flex-3{
+    margin-left: 60%;
+}
+
+.flex-3 {
+    width: 40px;
+}
+
+
+/* SEGUNDO BLOQUE TERCERO */
+
+.segundo-bloque-tercero {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    background: linear-gradient(135deg, #2c2b2b, #000000);
+    padding: 40px;
+    height: 180px;
+    border-radius: 27px;
+    width: 450px;
+}
+
+.bloque-deco {
+    margin-right: 25%;
+    margin-top: -35px;
+}
+
+
+.frase {
+    display: flex;
+    margin-top: 3%;
+}
+
+/* IMAGEN FLECHA */
+
+
+.frase h1 {
+    font-size: clamp(29px, 5vw, 35px);
+}
+
+.frase .flecha {
+    margin-top: 10%;
+    display: flex;
+}
+
+.flecha {
+    width: 40px;
+    height: 38px;
+    margin-left: 63%;
+}
+
+/* SEGUNDO DOS BLOQUES FIRMA Y PROYECTO */
+
+.segundo-dos-bloques{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.segundo-bloque-uno {
+    background: linear-gradient(135deg, #2c2b2b, #000000);
+    margin: 10px;
+    padding: 40px;
+    height: 180px;
+    border-radius: 27px;
+    width: 200px;
+}
+
+.firmita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+
+}
+.img-firma {
+    width: 200px;
+}
+
+.credenciales {
+    display: flex;
+}
+
+.credenciales img {
+    width: 40px;
+    margin-left: 40px;
+}
+
+.credenciales .flex-1{
+    margin-left: 35%;
+}
+.firmita .img-certificados {
+    width: 100px;
+}
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap ;
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.menu-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.menu-footer ul li {
+    margin: 20px;
+    position: relative;
+    float: left;
+    list-style-type: none;
+    display: flex;
+}
+
+.menu-footer ul li a {
+    color:#716f6f;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: clamp(9px, 5vw, 12px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* IMAGEN LOGO FOOTER */
+
+.logo-footer img {
+    width: 170px;
+}
+
+
+@media screen and (max-width: 1250px){
+    .bloque {
+        width: 400px;
+    }
+
+    .tercer-bloque-segundo {
+        width: 180px;
+    }
+
+    .segundo-bloque-tercero {
+        width: 380px;
+    }
+
+    .frase .flecha {
+        margin-left: 60%;
+        margin-top: 50px;
+    }
+
+    .segundo-bloque-uno {
+        width: 180px;
+    }
+
+    .credenciales img {
+        margin-left: 15%;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .menu {
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 10%;
+        left: 0;
+        right: 0;
+        display: none;
+        background-color: #716f6f;
+    }
+
+    label .menu-icono {
+        width: 55px;
+        margin-left: 40%;
+    }
+
+    .menu-icono {
+        position: absolute;
+
+    }
+
+
+    .menu .nabvar ul li {
+        width: 70%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+        margin-top: 1%;
+        margin-left: 73%;
+        width: 150px;
+    }
+
+    .boton {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    label .menu-icono {
+        margin-left: 35%;
+        
+    }
+
+    #menu:checked ~ .navbar {
+        margin-top: 1%;
+        margin-left: 60%;
+
+    }
+
+    .flecha {
+        margin-left: 60%;
+    }
+}
