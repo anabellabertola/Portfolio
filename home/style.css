@@ -735,6 +735,10 @@ footer {
         width: 270px;
         margin-left: 1.5%;
     }
+
+    .frase .flecha {
+        margin-left: 47%;
+    }
 }
 
 

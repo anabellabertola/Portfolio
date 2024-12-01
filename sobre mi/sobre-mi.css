@@ -551,13 +551,13 @@ footer {
 @media screen and (max-width: 600px) {
 
     label .menu-icono {
-        margin-left: 35%;
+        margin-left: 30%;
         
     }
 
     #menu:checked ~ .navbar {
         margin-top: 1%;
-        margin-left: 60%;
+        margin-left: 55%;
 
     }
 
@@ -577,7 +577,11 @@ footer {
 
 @media screen and (max-width: 400px) {
     .menu-footer ul li a {
-        margin: -10px;
+        margin: -15px;
+    }
+
+    .frase .flecha{
+        margin-left: 50%;
     }
 }
 
