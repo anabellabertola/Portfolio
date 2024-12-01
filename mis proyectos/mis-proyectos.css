@@ -16,9 +16,6 @@ header {
     height: 200px;
 }
 
-section {
-    margin: 10px;
-}
 
 .contenedor-pagina {
     justify-content: space-around;
@@ -395,7 +392,6 @@ footer {
 
     }
 
-    
 
     .flecha .flex-1 {
         margin-left: 90px;
@@ -426,10 +422,25 @@ footer {
     }
 }
 
-@media screen and (max-width: 350px) {
-    .pack-1 {
-        width: 50px;
-        margin-right: 20px;
+@media screen and (max-width: 400px) {
+    .titulos h1 {
+        font-size: 27px;
+    }
+
+    .imagen-pack {
+        width: 300px;
+        height: auto;
+    }
+
+    .imagen-pack .img-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .flecha {
+        width: 70px;
+        margin-left: 2%;
     }
 
 }
+

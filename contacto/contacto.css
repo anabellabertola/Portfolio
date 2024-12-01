@@ -328,6 +328,13 @@ textarea::placeholder{
 
 }
 
+@media screen and (max-width: 400px) {
+
+    .menu-footer ul li  {
+        margin: -30px;
+    }
+}
+
 
 
 

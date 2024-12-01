@@ -128,6 +128,7 @@ a p:hover {
     border-radius: 27px;
     margin-bottom: 50px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 
 .contenedor-imagen-perfil:hover {
@@ -404,5 +405,16 @@ footer {
         margin-top: 1%;
         margin-left: 60%;
 
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .primera-sesion {
+        width: 30%;
+    }
+
+    .imagen-perfil {
+        width: 10px;
     }
 }
