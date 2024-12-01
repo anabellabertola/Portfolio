@@ -573,3 +573,11 @@ footer {
         width: 310px;
     }
 }
+
+
+@media screen and (max-width: 400px) {
+    .menu-footer ul li a {
+        margin: -10px;
+    }
+}
+
