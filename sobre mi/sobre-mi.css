@@ -161,7 +161,7 @@ a h1 {
     background: linear-gradient(135deg, #2c2b2b, #000000);
     padding: 40px;
     border-radius: 27px;
-    height: 220px;
+    height: auto;
     margin-top: 30px;
     margin: 15px;
 }
@@ -211,13 +211,13 @@ a h1 {
 }
 
 .estudios h1 {
-    font-size: 18px;
+    font-size: clamp(15px, 3vw, 18px);
     font-weight: 200;
     margin-bottom: 16px;
 }
 
 .fecha h2 {
-    font-size: 14px;
+    font-size: clamp(10px, 3vw, 14px);
     margin-bottom: 10px;
 }
 
@@ -227,13 +227,14 @@ a h1 {
 
 .parrafos h3 {
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: clamp(14px, 3vw, 16px);
     color: white;
     font-weight: 200;
 }
 
 .parrafos p {
     font-weight: 200;
+    font-size: clamp(12px, 3vw, 15px);
 }
 
 /* TERCER BLOQUE SEGUNDA SECCION*/
@@ -244,6 +245,7 @@ a h1 {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 .tercer-bloque-segundo {
     background: linear-gradient(135deg, #2c2b2b, #000000);
     padding: 40px;
@@ -286,8 +288,16 @@ a h1 {
     margin-top: 30px;
 }
 
+.contactame p {
+    font-size: clamp(13px, 2vw, 15px);
+}
+
 .perfil-flecha {
     display: flex;
+}
+
+.perfil-flecha h1 {
+    font-size: clamp(20px, 3vw, 23px);
 }
 
 .perfil-flecha .flex-3{
@@ -333,7 +343,7 @@ a h1 {
 
 
 .frase h1 {
-    font-size: clamp(29px, 5vw, 35px);
+    font-size: clamp(26px, 5vw, 35px);
 }
 
 .frase .flecha {
@@ -378,12 +388,20 @@ a h1 {
     height: 130px;
 
 }
+
+.segundo-bloque-uno p {
+    font-size: clamp(13px, 2vw, 15px);
+}
 .img-firma {
     width: 200px;
 }
 
 .credenciales {
     display: flex;
+}
+
+.credenciales h1 {
+    font-size: clamp(20px, 3vw, 23px);
 }
 
 .credenciales img {
@@ -394,6 +412,7 @@ a h1 {
 .credenciales .flex-1{
     margin-left: 35%;
 }
+
 .firmita .img-certificados {
     width: 100px;
 }
@@ -542,7 +561,15 @@ footer {
 
     }
 
+    .bloque {
+        width: 300px;
+    }
+
     .flecha {
         margin-left: 60%;
+    }
+
+    .segundo-bloque-tercero {
+        width: 310px;
     }
 }
