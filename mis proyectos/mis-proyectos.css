@@ -442,5 +442,13 @@ footer {
         margin-left: 2%;
     }
 
+    .menu-footer ul li a {
+        margin: -10px;
+    }
+
+    .copyright {
+        line-height: 20px;
+    }
+
 }
 
